@@ -1,28 +1,8 @@
 # Road Trip
 
-Authors: John Culley, Kai Imery, Ananth Sanjay, Jeffrey Zhang
+Authors: John Culley
 
 Date: 2023-04-04
-
-### Summary
-
-To create our road trip buggy there were three key functionalities: cruise control, lane assistance, and making left turns. To create the cruise control function there were a few metrics that needed to be obtained. To effectively create cruise control we needed to obtain the speed of the buggy and how close the buggy is to obstructions in front of it. To get the speed we needed to use a pulse sensor and a white and black pattern on the wheel to count the amount of pulses over a given amount of time. To check how close the buggy is to objects in front of it, we need to use a LIDAR to obtain that distance. These two metrics can ensure that we will not hit the vehicle in front of us and will make sure to stop if there is threat of a collision. To create the lane assistance functionality, we need to obtain the distance from the wall in the front and back of the vehicle to understand the orientation of the buggy within its lane. To get these values two LIDARs will be used. With these same metrics, our buggy will be able to effectively control its speed and wheel orientation to correctly make a safe left turn. 
-
-With all of the tasks identified, our team divided to ensure that all components could be completed. John, Jeffrey, and Ananth worked on the cruise control together. John and Jeffrey worked on the lane assistance together. John, Jeffrey, and Kai worked to make the car turn left. After all completing our components, we brought them together to build our project. After combining all of the components together, there were a lot of issues and testing that needed to be done to effectively control the buggy. A big roadblock in our design was how to differentiate between an obstruction in the road and when to initiate the turn. Another issue with our design was the lane assistance because sometimes the lane assistance wasn’t entirely functional. After fixing these issues, our buggy was successfully able to cruise control, lane assist, and make left turns. 
-
-
-### Self-Assessment 
-
-| Objective Criterion | Rating | Max Value  | 
-|---------------------------------------------|:-----------:|:---------:|
-| Objective One | 1 |  1     | 
-| Objective Two | 1 |  1     | 
-| Objective Three | 1 |  1     | 
-| Objective Four | 1 |  1     | 
-| Objective Five | 1 |  1     | 
-| Objective Six | 1 |  1     | 
-| Objective Seven | 1 |  1     | 
-
 
 ### Solution Design
 
@@ -92,7 +72,6 @@ Simplified circuit diagram with all of the sensors used on the buggy
 
 
 ### Supporting Artifacts
-- [Link to video technical presentation](https://drive.google.com/file/d/1hTKUG3NNfp4CsQro4mYLEMHWlN8f6Wlr/view?usp=sharing). Not to exceed 120s
 - [Link to video demo](https://drive.google.com/file/d/1X4F4XvbshXq4FzzXS3Gg4VRr5AfhFGAZ/view?usp=sharing). Not to exceed 120s
 
 
